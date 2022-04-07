@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    background-color: #F5F7FB;
+    font-family: 'Karla', sans-serif;
+}
+
+.welc {
+    color: #293264;
+    padding-top: 25vh;
+    margin: auto;
+    text-align: center;
+}
+
+.welc-title {
+    margin-bottom: 0px;
+}
+
+.welc-sub {
+   padding-bottom: 20px;
+}
+
+.welc-btn {
+    font-family: 'Inter';
+    color: #F5F7FB;
+    background-color: #4D5B9E;
+    border: transparent;
+    width: 195px;
+    height: 50px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.ques-div {
+    display: grid;
+    margin-top: 2vh;
+    margin-left: 15%;
+    width: 70%;
+}
+
+.sub-div {
+    display: flex;
+}
+
+.ques-ques {
+    color: #293264;
+}
+
+.ques-option {
+    height: 23px;
+    min-width: 65px;
+    padding: 5px, 0px;
+    margin-right: 13px;
+    margin-bottom: 10px;
+    
+    color: #293264;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 12px;
+    text-align: center;
+    
+    background: #F5F7FB;
+    border: 0.794239px solid #4D5B9E;
+    box-sizing: border-box;
+    border-radius: 7.94239px;
+}
+
+.ques-option-highlight {
+    background: #D6DBF5;
+}
+
+.ques-option-correct {
+    background: #94D7A2;
+    border: transparent;
+}
+
+.ques-option-wrong {
+    background: #F8BCBC;
+    border: transparent;
+    opacity: 50%;
+}
+
+.ques-option-none {
+    opacity: 50%;
+}
+
+.ques-line {
+    border: 0.794239px solid #DBDEF0;
+} 
+
+.ques-final {
+    background: #4D5B9E;
+    border-radius: 10px;
+    color: #F5F7FB;
+    
+    font-family: 'Inter';
+    font-size: 14px;
+    text-align: center;
+    
+    width: 25%;
+    height: 35px;
+    border: transparent;
+    margin: auto;
+    margin-top: 20px;
+}
+
+
+.sub-score {
+    color: #293264;
+    
+    font-family: 'Inter';
+    font-size: 12.8px;
+    text-align: center;
+    
+    margin: auto;
+}
+
+.sub-btn {
+    background: #4D5B9E;
+    border-radius: 10px;
+    color: #F5F7FB;
+    
+    font-family: 'Inter';
+    font-size: 12px;
+    text-align: center;
+    
+    width: 25%;
+    height: 35px;
+    border: transparent;
+    margin: auto;
+}
