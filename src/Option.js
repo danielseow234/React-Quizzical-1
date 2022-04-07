@@ -3,7 +3,7 @@ import React from "react"
 export default function Option(props) {
     
     function checkStatus() {
-        if (props.submit == false) {
+        if (props.submit === false) {
             if (props.option === props.selected) {
                 return "ques-option ques-option-highlight"
             } else {

@@ -1,6 +1,8 @@
 import React from "react"
 import Start from "./Start"
 import Main from "./Main"
+import blob1 from "./blob-1.png"
+import blob2 from "./blob-2.png"
 
 export default function App() {
     const [play, setPlay] = React.useState(false)
@@ -19,7 +21,7 @@ export default function App() {
         )
         let currentIndex = array.length, randomIndex;
         
-        while (currentIndex != 0) {
+        while (currentIndex !== 0) {
             randomIndex = Math.floor(Math.random() * currentIndex);
             currentIndex--;
             
@@ -63,7 +65,10 @@ export default function App() {
         setPlay(() => true)
     }
     
-    return (
-        play ? <Main questions={questions} updateSelect={updateSelect} /> : <Start startQuiz={startQuiz} />
+    return (<div>
+        <img src={blob2} className="blob2"/>
+        {play ? <Main questions={questions} updateSelect={updateSelect} /> : <Start startQuiz={startQuiz} />}
+        <img src={blob1} className="blob1"/>
+    </div>
     )
 }
